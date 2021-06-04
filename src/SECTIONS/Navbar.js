@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div
       ref={ref}
-      className="z-10 py-5 fixed left-0 right-0 px-4 text-white"
+      className="z-10 py-2 fixed left-0 right-0 px-4 text-white"
       style={{
         backgroundColor: `rgba(75, 85, 99, ${navBackground})`,
         borderBottom: `2px solid rgba(96, 165, 250, ${navBackground})`,
@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
           <div
             className={`lg:border-0 lg:flex-row lg:bg-opacity-0 lg:relative lg:w-auto
-          flex-col flex transition-all duration-1000 fixed top-0 h-full md:w-1/3 w-2/3 min-w-30rem border-r-2 border-blue-400 left-0 bg-black bg-opacity-70 justify-evenly text-2xl items-center
+          flex-col flex transition-all duration-1000 fixed top-0 h-full md:w-1/3 w-2/3 min-w-30rem border-r-2 border-blue-400 left-0 bg-black bg-opacity-70 justify-evenly text-xl items-center
           ${isVisible ? "left-0" : "-left-full lg:left-0"}`}
           >
             <a
